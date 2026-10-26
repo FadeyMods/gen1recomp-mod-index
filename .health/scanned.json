@@ -5,7 +5,7 @@
     "AlfonsPistoletti@second_screen_companion": "1.1.0",
     "ArmstrongThomas@gen1_modern_ui": "0.9.2",
     "AshJam@silphnet": "1.18.0",
-    "AverageConsumer@kanto_gear": "4.5.0",
+    "AverageConsumer@kanto_gear": "4.5.1",
     "BartInTheField@translation-nl": "0.0.2",
     "BrenoBertucci@TERRARIUM": "1.30.1",
     "Campo@kanto_dynamic_weather": "1.0.3",
@@ -107,7 +107,7 @@
     "Tonedawg1@speed_flash": "1.1.2",
     "Tonedawg1@tm_hm_names": "1.2.0",
     "Tooandorisu@norsk_bokmaal": "1.0.47",
-    "Tooandorisu@voxel_world_gen3": "1.26.1",
+    "Tooandorisu@voxel_world_gen3": "1.29.0",
     "Wild@Gen1BattleUI": "1.8.2",
     "Wild@Gen1BillsBox": "1.14.0",
     "Wild@Gen1Dex": "1.12.0",
@@ -129,7 +129,6 @@
     "YukitaMayako@simple_girl": "1.0.0",
     "Yukitty@oak_brief": "1.0.1",
     "ZyranCZ@a_autofire": "2.0.2",
-    "absol89@BATTLE_ART_VOXEL_FORK": "1.11.1",
     "adrian@recomp-rider": "0.4.0",
     "adrian@what-the-heck": "0.2.0",
     "alamops@rby_mmo": "1.4.20",
@@ -203,6 +202,11 @@
     "unxpected-uxp@quality_of_life": "1.3.0"
   },
   "held": {
+    "absol89@BATTLE_ART_VOXEL_FORK": {
+      "version": "1.11.2",
+      "reason": "lib/seasonal/Cache.lua:7 require(\"ffi\") — the sandbox denies ffi (it grants arbitrary C calls)",
+      "at": "2026-10-26T03:58:20.610Z"
+    },
     "carts/bryanthaboi@omega_random_competition": {
       "version": "1.0.0",
       "reason": "rng.lua:1 a cart bundle ships no code; main.lua:1 a cart bundle ships no code; plan.lua:1 a cart bundle ships no code; apply.lua:1 a cart bundle ships no code; tests/bcr_test.lua:1 a cart bundle ships no code",
